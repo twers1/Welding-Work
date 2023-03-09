@@ -1,3 +1,4 @@
+import Colum from '@/ui/grid/Colum'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FC } from 'react'
@@ -8,16 +9,8 @@ import { menu } from './menu.data'
 
 const HeaderMenu: FC = () => {
 	return (
+		<Colum size={5} isCenter={true}>
 		<div className={styles.menu}>
-			<Link href='/'>
-				<Image
-					src='/images/logo.svg'
-					width={100}
-					height={100}
-					alt='Xmas shop'
-				/>
-			</Link>
-
 			<nav>
 				<ul>
 					{menu.map(item => (
@@ -26,6 +19,7 @@ const HeaderMenu: FC = () => {
 				</ul>
 			</nav>
 		</div>
+		</Colum>
 	)
 }
 

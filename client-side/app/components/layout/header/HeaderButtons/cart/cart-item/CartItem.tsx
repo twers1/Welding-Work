@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FC } from 'react'
 
-import CartActions from '@/layout/header/cart/cart-item/cart-actions/CartActions'
+import CartActions from '@/layout/header/HeaderButtons/cart/cart-item/cart-actions/CartActions'
 
 import { formatToCurrency } from '@/utils/format-to-currency'
 
@@ -23,7 +23,7 @@ const CartItem: FC<{ item: ICartItem }> = ({ item }) => {
 				<div className={styles.price}>
 					{formatToCurrency(item.product.price)}
 				</div>
-				<div className={styles.variation}>{item.size}</div>
+				<div className={styles.variation}></div>
 				<CartActions item={item} />
 			</div>
 		</div>

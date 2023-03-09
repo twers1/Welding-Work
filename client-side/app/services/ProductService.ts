@@ -1,4 +1,4 @@
-import { EnumSorting } from '@/ui/catalog/sorting/sorting.interface'
+
 
 import { IProduct } from '@/types/product.interface'
 
@@ -7,11 +7,9 @@ import { axiosClassic } from '@/api/api'
 const PRODUCTS = '/products'
 
 export const ProductService = {
-	async getProducts(type?: EnumSorting) {
+	async getProducts() {
 		const { data } = await axiosClassic.get<IProduct[]>(PRODUCTS, {
-			params: {
-				sortType: type
-			}
+			
 		})
 
 		return data
