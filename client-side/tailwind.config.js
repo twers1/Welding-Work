@@ -2,12 +2,14 @@
 const colors = require('tailwindcss/colors')
 
 const constants = {
-	primary: '#A40D0D',
-	'dark-primary': '#9C0D0F',
+	primary: '#ffffca',
+	'dark-primary': '#F5F5DC',
 	white: '#F0E2E3',
 	gray: '#9D9C9D',
 	'dark-gray': '#5D5D5D',
-	black: '#090909'
+	black: '#090909',
+	red: '#A40D0D',
+	'dark-red': '#9C0D0F',
 }
 
 module.exports = {

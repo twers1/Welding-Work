@@ -9,7 +9,7 @@ import HeaderProfile from './profile/HeaderProfile'
 
 const Header: FC = () => {
 	return (
-		<header className={styles.header}>
+		<header className={styles.header} >
 			<Row >
 			<HeaderLogo />
 			<HeaderMenu />
