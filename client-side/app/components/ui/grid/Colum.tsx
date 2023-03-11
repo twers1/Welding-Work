@@ -5,7 +5,7 @@ import cn from  'clsx'
 
 interface IColum {
      size: number
-     isCenter?: true
+     isCenter?: boolean
      className?: string
      isPadding?:boolean 
 }

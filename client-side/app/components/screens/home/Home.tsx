@@ -6,6 +6,8 @@ import { IProductsPage } from '@/../pages'
 import Row from '@/ui/grid/Row'
 import Colum from '@/ui/grid/Colum'
 import Image from 'next/image'
+import HotSale from './hot-sale/HotSale'
+import HomeInformation from './home-information/HomeInformation'
 
 const Home: FC<IProductsPage> = ({ products }) => {
 	return (
@@ -17,7 +19,14 @@ const Home: FC<IProductsPage> = ({ products }) => {
 				<Colum size={7} isPadding={false}>
 					<Image src='/images/main-4x.png' alt='' width={720} height={628} />
 				</Colum>
+
+				<Colum size={5} isPadding={false} isCenter={false} className='flex-col'>
+					<HotSale />
+					<HomeInformation />
+				</Colum>
 			</Row>
+
+			
 		</Layout>
 	)
 }
