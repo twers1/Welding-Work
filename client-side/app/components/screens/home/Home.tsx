@@ -17,7 +17,7 @@ const Home: FC<IProductsPage> = ({ products }) => {
 		>
 			<Row className='bg-primary'>
 				<Colum size={7} isPadding={false}>
-					<Image src='/images/main-4x.png' alt='' width={720} height={628} />
+					<Image src='/images/main-4x.png' alt='' width={620} height={620} />
 				</Colum>
 
 				<Colum size={5} isPadding={false} isCenter={false} className='flex-col'>
