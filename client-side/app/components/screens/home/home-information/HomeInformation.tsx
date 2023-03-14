@@ -11,8 +11,8 @@ const HomeInformation: FC = () => {
             <Image src='/images/arrival.jpg' alt='' width={200} height={100} />
             </Colum>
             <Colum size={8} className='flex-col border-t-2 border-black' isBorder={false} >
-                <div>Наши заборы</div>
-            <Image src='/images/zabor.jpg' alt='' width={300} height={100} />
+                <div>Наши откатные ворота</div>
+            <Image src='/images/vorota.jpg' alt='' width={300} height={100} />
             </Colum>
         </Row>
     )

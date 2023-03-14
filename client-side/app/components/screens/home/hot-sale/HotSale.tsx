@@ -6,7 +6,7 @@ const HotSale: FC = () => {
          <div className='text-gray py-16 px-8'>
 
         
-        <h1 className='text-5xl font-normal mt-5 mb-14 font-serif'>Изготовление навесов, ангаров, заборов в Краснодаре</h1>
+        <h1 className='text-5xl font-normal mt-5 mb-14 font-serif'>Изготовление навесов, ангаров, заборов и откатных ворот в Краснодаре</h1>
         <div className="flex items-center justify-between">
             <div>
                <span className='font-normal text-3xl mr-2'>ОТ 2000 РУБЛЕЙ</span> 
