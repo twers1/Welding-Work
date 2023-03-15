@@ -13,7 +13,7 @@ const Home: FC<IProductsPage> = ({ products }) => {
 	return (
 		<Layout
 			title='Home'
-			description='More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.'
+			description=''
 		>
 			<Row className='bg-primary'>
 				<Colum size={7} isPadding={false}>
