@@ -1,5 +1,4 @@
 
-
 import { IProduct } from '@/types/product.interface'
 
 import { axiosClassic } from '@/api/api'

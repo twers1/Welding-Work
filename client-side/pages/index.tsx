@@ -12,15 +12,6 @@ export interface IProductsPage {
 const HomePage: NextPage<IProductsPage> = ({ products }) => {
 	return <Home products={products} />
 }
-/* 
-export const getStaticProps: GetStaticProps<IProductsPage> = async () => {
-	const products = await ProductService.getProducts()
 
-	return {
-		props: {
-			products
-		}
-	}
-} */
 
 export default HomePage
