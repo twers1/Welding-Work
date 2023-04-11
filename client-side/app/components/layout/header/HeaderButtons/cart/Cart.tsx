@@ -34,9 +34,9 @@ const Cart: FC = () => {
 
 	return (
 		<div className='relative' ref={ref}>
-			<SquareButton Icon={BiShoppingBag} onClick={() => {setIsShow(!isShow)}} number={5} />
+			<SquareButton Icon={BiShoppingBag} onClick={() => {setIsShow(!isShow)}} number={cart.length} />
 
-			<div className={cn('absolute top-[4.2rem] w-80 -left-[12.5rem] bg-[#131313] px-5 py-3 text-sm menu', 
+			<div className={cn('absolute top-[4.2rem] w-80 -left-[12.5rem] bg-[#131313] px-5 py-3 text-sm menu z-10', 
 			isShow ? 'open-menu' : 'close-menu'
 			)}	
 			>
@@ -57,7 +57,7 @@ const Cart: FC = () => {
 					
 						<div className={styles.footer}>
 							<div>Итоговая сумма:</div>
-							<div>total</div>
+							<div>{total} рублей</div>
 						</div>
 						<div className='text-center'>
 						<button onClick={() => mutate()} className='btn_link mt-5 mb-2'>

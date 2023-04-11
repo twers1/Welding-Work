@@ -28,7 +28,16 @@ body {
 }
 
 .btn_link{
-	@apply text-sm uppercase text-gray border-b border-gray/20 tracking-widest;
+	@apply text-sm uppercase text-gray border-b border-gray/20 tracking-widest relative;
+
+	&::after {
+		content: '';
+		@apply absolute left-0 bottom-0 h-0.5 w-0 bg-gray transition-all duration-300;
+	}
+
+	&:hover::after {
+		@apply w-full;
+	}
 }
 
 .menu{
