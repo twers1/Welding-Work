@@ -4,10 +4,11 @@ import { bindActionCreators } from 'redux'
 
 
 import { cartSlice } from '../store/cart/cart.slice'
+import * as authActions from '@/store/auth/auth.actions'
 
 const rootAction = {
 	...cartSlice.actions,
-
+	...authActions
 }
 
 export const useActions = () => {

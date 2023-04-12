@@ -15,7 +15,8 @@ import { PaymentModule } from './payment/payment.module';
 		ConfigModule.forRoot(),
 		ProductModule,
 		ReviewModule,
-		PaymentModule
+		PaymentModule,
+		AuthModule
 	]
 })
 export class AppModule {}

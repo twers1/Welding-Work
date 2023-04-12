@@ -12,34 +12,34 @@ export const authSlice = createSlice({
 	name: 'auth',
 	initialState,
 	reducers: {	},
-    extraReducers: (builder) => {
+    extraReducers: builder => {
         builder 
-            .addCase(register.pending, (state) => {
+            .addCase(register.pending, state => {
                 state.isLoading = true
             })
             .addCase(register.fulfilled, (state, {payload}) =>{
                 state.isLoading = false
                 state.isLoggedIn = true
             })
-            .addCase(register.rejected, (state) => {
+            .addCase(register.rejected, state => {
                 state.isLoading = false
                 state.isLoggedIn = false
             })
-            .addCase(login.pending, (state) =>{
+            .addCase(login.pending, state =>{
                 state.isLoading = true
             })
             .addCase(login.fulfilled, (state, {payload}) =>{
                 state.isLoading = false
                 state.isLoggedIn = true
             })
-            .addCase(login.rejected, (state) =>{
+            .addCase(login.rejected, state   =>{
                 state.isLoading = false
                 state.isLoggedIn = false
             })
-            .addCase(logout.fulfilled, (state) => {
-                state.isLoading = false
-                state.isLoggedIn = false
-            })
+            // .addCase(logout.fulfilled, state =>{
+            //     state.isLoading = false
+            //     state.isLoggedIn = false
+            // })
             
     }
 })

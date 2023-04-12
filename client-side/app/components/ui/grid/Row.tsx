@@ -6,7 +6,7 @@ interface IRow {
     className?: string
 }
 
-const Row: FC<PropsWithChildren<IRow>> = ({children, className, isBorder}) => {
+const Row: FC<PropsWithChildren<IRow>> = ({children, className, isBorder = true}) => {
     return <div className={cn('grid w-full grid-cols-12 ',
     {
         'border-b-2 border-black border-solid': isBorder
