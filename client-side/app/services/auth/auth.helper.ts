@@ -1,9 +1,9 @@
-import  {get, set, remove} from 'js-cookie'
+import  Cookies from 'js-cookie'
 
 export const saveTokenToStorage = async (accessToken: string) => {
-    await set('accessToken', accessToken)
+    await Cookies.set('accessToken', accessToken)
 }
 
 export const removeTokenFromStorage = async() =>{
-    await remove('accessToken')
+    await Cookies.remove('accessToken')
 }

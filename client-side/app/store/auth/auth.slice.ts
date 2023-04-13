@@ -11,7 +11,7 @@ const initialState: IAuthInitialState = {
 export const authSlice = createSlice({
 	name: 'auth',
 	initialState,
-	reducers: {	},
+	reducers: {},
     extraReducers: builder => {
         builder 
             .addCase(register.pending, state => {
@@ -32,14 +32,14 @@ export const authSlice = createSlice({
                 state.isLoading = false
                 state.isLoggedIn = true
             })
-            .addCase(login.rejected, state   =>{
+            .addCase(login.rejected, state   => {
                 state.isLoading = false
                 state.isLoggedIn = false
             })
-            // .addCase(logout.fulfilled, state =>{
-            //     state.isLoading = false
-            //     state.isLoggedIn = false
-            // })
+            .addCase(logout.fulfilled, state => {
+                state.isLoading = false
+                state.isLoggedIn = false
+            })
             
     }
 })

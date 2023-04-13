@@ -36,10 +36,10 @@ const Auth: FC = () => {
             <div>
             </div>
             <button className='btn_link mr-3 text-center' onClick={()=> login(inputData)}>
-                Регистрация
+                Войти
             </button>
             <button className='btn_link text-center' onClick={() => register(inputData)}>
-                Войти
+                Регистрация
             </button>
             </div>
         </Layout>
