@@ -1,22 +1,19 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p align="center">
-<img width="60" height="68" alt="EverShop Logo" src=""/>here logo
+<img width="60" height="68" alt="Welding Work Shop Logo" src=""/>here logo
 </p>
 <p align="center">
   <h1 align="center">Welding Work Shop</h1>
 </p>
-<h4 align="center">
-    <a href="">Documentation</a> |
-    <a href="">Demo</a>
-</h4>
+
 
 <p align="center">
   <img src="https://github.com/nodeonline/nodejscart/actions/workflows/build.yml/badge.svg" alt="Github Action">
   <a href="https://twitter.com/evershopjs">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/evershopjs?style=social">
   </a>
-  <a href="https://discord.gg/GSzt7dt7RM">
-    <img src="https://img.shields.io/discord/757179260417867879?label=discord" alt="Discord">
+  <a href="">
+    <img src="" alt="Telegram">
   </a>
   <a href="https://opensource.org/licenses/GPL-3.0">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
@@ -73,7 +70,7 @@ If you like my work, feel free to:
 
 - ⭐ this repository. It helps.
 
-### Ask a question about EverShop
+### Ask a question about Welding Work Shop
 
 You can ask questions in the Welding Work Shop telegram.
 
@@ -81,7 +78,7 @@ You can ask questions in the Welding Work Shop telegram.
 
 ### Create a bug report
 
-If you see an error message or run into an issue, please [create bug report](). This effort is valued and it will help all EverShop users.
+If you see an error message or run into an issue, please [create bug report](https://github.com/twers1/Welding-Work/issues). This effort is valued and it will help all EverShop users.
 
 
 ## License
