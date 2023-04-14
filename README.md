@@ -75,7 +75,7 @@ You can ask questions in the Welding Work Shop telegram.
 
 ### Create a bug report
 
-If you see an error message or run into an issue, please [create bug report](https://github.com/twers1/Welding-Work/issues). This effort is valued and it will help all EverShop users.
+If you see an error message or run into an issue, please [create bug report](https://github.com/twers1/Welding-Work/issues).
 
 
 ## License
