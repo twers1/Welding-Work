@@ -40,7 +40,7 @@ Explore our demo store.
 
 ## Start
 
-You can get started with EverShop in minutes by running the following command:
+You can get started with Welding Work Shop in minutes by running the following command:
 
 In server-side(install node_modules)
 ```bash
@@ -83,4 +83,4 @@ If you see an error message or run into an issue, please [create bug report](htt
 
 ## License
 
-[GPL-3.0 License]()
+[GPL-3.0 License](https://github.com/twers1/Welding-Work/blob/main/LICENSE.md)
